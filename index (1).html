@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Precipitate Counter</title>
+<style>
+body{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:640px;margin:48px auto;padding:0 18px;color:#1c1c1c;line-height:1.5}
+h1{margin-bottom:4px} .sub{color:#555;margin-top:0}
+a.btn{display:block;padding:15px;margin:12px 0;background:#782F40;color:#fff;text-align:center;border-radius:8px;text-decoration:none;font-weight:600}
+a.btn:hover{background:#5e2432}
+.box{background:#f5f2ee;border-radius:8px;padding:12px 16px;margin:18px 0;font-size:15px}
+code{background:#eee;padding:1px 5px;border-radius:4px;font-size:14px}
+small{color:#666}
+</style></head><body>
+<h1>Precipitate Counter</h1>
+<p class="sub">Drop in a BSE-SEM image. Get the particle count and sizes, the predicted mask, and a Fiji ROI zip to correct by hand.</p>
+<a class="btn" href="https://www.dropbox.com/scl/fi/gd67rxvlh9cc4ovmfcv1s/PrecipitateCounter-Windows.zip?rlkey=1d5r07mohm0mdmmhpdeywz3lk&st=mia8bxdl&dl=1">Download for Windows</a>
+<a class="btn" href="https://www.dropbox.com/scl/fi/l98e559kubmal67i1x95u/PrecipitateCounter-macOS-1.zip?rlkey=bq4pijkh1957amzricihgcffa&st=d74sdzre&dl=1">Download for Mac</a>
+<div class="box"><b>How to use</b><br>
+1. Unzip the download.<br>
+2. <b>Windows:</b> double-click <code>PrecipitateCounter.exe</code>. If SmartScreen warns, click <i>More info</i>, then <i>Run anyway</i>.<br>
+&nbsp;&nbsp;&nbsp;<b>Mac (first time only):</b> in Terminal run <code>xattr -dr com.apple.quarantine &lt;path to the PrecipitateCounter folder&gt;</code> (drag the folder into Terminal), then double-click <code>PrecipitateCounter</code>.<br>
+3. Keep the window that opens. After 30-60 seconds your browser opens the app (or go to <code>http://127.0.0.1:7860</code>).<br>
+4. Drop in your images, enter the pixel size (nm/px) from the scale bar, press <i>Count particles</i>.</div>
+<p><small>Everything runs on your own computer. Images are not uploaded anywhere. README.txt inside the download has the same steps.</small></p>
+</body></html>
